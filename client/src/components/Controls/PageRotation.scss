@@ -1,0 +1,31 @@
+.pagerotation {
+  position: absolute;
+  top: 0;
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+  color: rgb(255, 132, 241);
+  .pagerotation-option.active {
+    // color: rgb(19, 182, 219);
+    color: rgb(255, 0, 225);
+
+    font-weight: bold;
+    cursor: default;
+    &:hover {
+      // color: rgb(19, 182, 219);
+      color: rgb(255, 0, 225);
+    }
+  }
+
+  .pagerotation-option {
+    margin: 0 0.7rem;
+    letter-spacing: 0.17rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      // color: rgb(148, 230, 255);
+      color: rgb(255, 0, 225);
+    }
+  }
+}

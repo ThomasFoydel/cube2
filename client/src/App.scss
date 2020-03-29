@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+html {
+  font-size: 62.5%;
+
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.089)
+    ),
+    url('./img/rocks.jpg');
+  background-position: center center;
+  background-size: cover;
+  // background: url('https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  box-sizing: border-box;
+  background: rgba(245, 245, 245, 0);
+}
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 20rem;
+  backdrop-filter: blur(1px);
+}
