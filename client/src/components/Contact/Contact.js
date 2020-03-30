@@ -8,7 +8,7 @@ const Contact = ({ isCurrentPage }) => {
           className={`cubeside-pagetitle ${isCurrentPage &&
             'pagetitle-active'}`}
         >
-          contact
+          Contact
         </h1>
       </div>
     </div>

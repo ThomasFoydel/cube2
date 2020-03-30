@@ -88,9 +88,25 @@
 .cubeside-pagetitle {
   padding: 3rem;
   transition: all 0.3s ease;
+  background: linear-gradient(
+    to bottom right,
+    rgb(20, 20, 20),
+    rgb(37, 37, 37)
+  );
+  border-radius: 7px;
+  box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.25),
+    -2rem -2rem 6rem rgba(232, 252, 255, 0.16);
 }
 
 .cubeside-pagetitle.pagetitle-active {
-  color: rgb(247, 17, 220);
-  background: black;
+  // color: rgb(247, 17, 220);
+  // background: black;
+  // background: linear-gradient(
+  //   to bottom right,
+  //   rgb(20, 20, 20),
+  //   rgb(37, 37, 37)
+  // );
+  // border-radius: 7px;
+  // box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.25),
+  //   -2rem -2rem 6rem rgba(232, 252, 255, 0.16);
 }
