@@ -83,6 +83,9 @@
   position: absolute;
   top: 10%;
   font-size: 4rem;
+  &::selection {
+    background-color: rgba(230, 230, 230, 0);
+  }
 }
 
 .cubeside-pagetitle {

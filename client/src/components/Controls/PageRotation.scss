@@ -15,10 +15,15 @@
       // color: rgb(19, 182, 219);
       color: rgb(255, 0, 225);
     }
+
+    &::selection {
+      background-color: rgba(230, 230, 230, 0);
+      // color: blue;
+    }
   }
 
   .pagerotation-option {
-    margin: 0 0.7rem;
+    margin: 0 0.76rem;
     letter-spacing: 0.17rem;
     transition: all 0.2s ease;
     cursor: pointer;
